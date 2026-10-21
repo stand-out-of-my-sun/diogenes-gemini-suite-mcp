@@ -12,6 +12,13 @@
   "bugs": {
     "url": "https://github.com/stand-out-of-my-sun/diogenes-gemini-suite-mcp/issues"
   },
+  "main": "index.js",
+  "bin": {
+    "diogenes-gemini-suite-mcp": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
   "keywords": [
     "mcp",
     "mcp-server",
