@@ -2,6 +2,7 @@
 
 [![Indexed on TensorBlock MCP Index](https://mcp-index.tensorblock.co/v1/servers/github-stand-out-of-my-sun-diogenes-gemini-suite-mcp-837ed1ee/badge.svg)](https://www.tensorblock.co/mcp/servers/github-stand-out-of-my-sun-diogenes-gemini-suite-mcp-837ed1ee?client=cursor)
 [![Glama MCP Server](https://glama.ai/mcp/servers/stand-out-of-my-sun/diogenes-gemini-suite-mcp/badges/score.svg)](https://glama.ai/mcp/servers/stand-out-of-my-sun/diogenes-gemini-suite-mcp)
+[![M8ven Score](https://m8ven.ai/badge/mcp/stand-out-of-my-sun-diogenes-gemini-suite-mcp-mzy1q5?v=98175884a1b7e16f813a65c2f7d70cad)](https://m8ven.ai/mcp/stand-out-of-my-sun-diogenes-gemini-suite-mcp-mzy1q5?s=readme)
 [![Master Gateway](https://glama.ai/mcp/servers/stand-out-of-my-sun/diogenes-micro-gateway/badges/score.svg)](https://glama.ai/mcp/servers/stand-out-of-my-sun/diogenes-micro-gateway)
 
 **Diogenes Gemini Suite & AI Agents MCP** is a focused, zero-bloat Model Context Protocol (`streamable-http`) package powered by the [Diogenes Microservice Gateway](https://diogenes-micro-gateway.corinth.workers.dev).
