@@ -1,14 +1,14 @@
-# Diogenes Gemini Suite & Autonomous Agents MCP (`diogenes-gemini-suite-mcp`)
+# Diogenes Gemini Suite & AI Agents MCP (`diogenes-gemini-suite-mcp`)
 
-[![Indexed on TensorBlock MCP Index](https://mcp-index.tensorblock.co/v1/servers/github-stand-out-of-my-sun-diogenes-l402-gateway-efbd75e7/badge.svg)](https://www.tensorblock.co/mcp/servers/github-stand-out-of-my-sun-diogenes-l402-gateway-efbd75e7?client=cursor)
+[![Indexed on TensorBlock MCP Index](https://mcp-index.tensorblock.co/v1/servers/github-stand-out-of-my-sun-diogenes-gemini-suite-mcp-837ed1ee/badge.svg)](https://www.tensorblock.co/mcp/servers/github-stand-out-of-my-sun-diogenes-gemini-suite-mcp-837ed1ee?client=cursor)
 [![Glama MCP Server](https://glama.ai/mcp/servers/stand-out-of-my-sun/diogenes-gemini-suite-mcp/badges/score.svg)](https://glama.ai/mcp/servers/stand-out-of-my-sun/diogenes-gemini-suite-mcp)
 [![Master Gateway](https://glama.ai/mcp/servers/stand-out-of-my-sun/diogenes-micro-gateway/badges/score.svg)](https://glama.ai/mcp/servers/stand-out-of-my-sun/diogenes-micro-gateway)
 
-**Diogenes Gemini Suite & Autonomous Agents MCP** is a focused, zero-bloat Model Context Protocol (`streamable-http`) package powered by the [Diogenes Autonomous Microservice Gateway](https://diogenes-micro-gateway.corinth.workers.dev).
+**Diogenes Gemini Suite & AI Agents MCP** is a focused, zero-bloat Model Context Protocol (`streamable-http`) package powered by the [Diogenes Microservice Gateway](https://diogenes-micro-gateway.corinth.workers.dev).
 
-Instead of loading all 85 gateway endpoints into your LLM's context window, installing this package exposes **only the 15 specialized `gemini-suite` tools** needed for **AI & LLM Integration**:
+Instead of loading all 121 gateway endpoints into your LLM's context window, installing this package exposes **only the 15 specialized `gemini-suite` tools** needed for **AI & LLM Integration**:
 
-15 MCP tools providing account-less access to all 45 Google Gemini models (Gemini 4 Argon, 3.1 Pro, 3.8 Flash) and autonomous agents (Antigravity Agent, Deep Research Pro, Computer Use, Nano Banana Pro, Veo 3, Lyria 3) via L402, x402, and MPP.
+15 MCP tools providing account-less access to all 45 Google Gemini models (Gemini 4 Argon, 3.1 Pro, 3.8 Flash) and AI agents (Antigravity Agent, Deep Research Pro, Computer Use, Nano Banana Pro, Veo 3, Lyria 3) via L402, x402, and MPP.
 
 ---
 
@@ -87,7 +87,10 @@ Install only the domain packages relevant to your workflow:
 | **4. EVE: Frontier Sui Move Suite** | `https://diogenes-micro-gateway.corinth.workers.dev/mcp/eve-frontier` | [`stand-out-of-my-sun/diogenes-eve-frontier-mcp`](https://github.com/stand-out-of-my-sun/diogenes-eve-frontier-mcp) |
 | **5. Context, Code & Solvers (15 Tools)** | `https://diogenes-micro-gateway.corinth.workers.dev/mcp/context-code-solver` | [`stand-out-of-my-sun/diogenes-context-code-solver-mcp`](https://github.com/stand-out-of-my-sun/diogenes-context-code-solver-mcp) |
 | **6. Dev, Data & Workflow Utilities (14 Tools)** | `https://diogenes-micro-gateway.corinth.workers.dev/mcp/dev-utilities` | [`stand-out-of-my-sun/diogenes-dev-utilities-mcp`](https://github.com/stand-out-of-my-sun/diogenes-dev-utilities-mcp) |
-| **7. Full Master Gateway (All 85 Services)** | `https://diogenes-micro-gateway.corinth.workers.dev/mcp` | [`stand-out-of-my-sun/diogenes-micro-gateway`](https://github.com/stand-out-of-my-sun/diogenes-micro-gateway) |
+| **7. Web Extraction & Scraping (12 Tools)** | `https://diogenes-micro-gateway.corinth.workers.dev/mcp/web-scraping-engine` | [`stand-out-of-my-sun/diogenes-web-scraping-engine-mcp`](https://github.com/stand-out-of-my-sun/diogenes-web-scraping-engine-mcp) |
+| **8. Neural Search & Research (12 Tools)** | `https://diogenes-micro-gateway.corinth.workers.dev/mcp/neural-search-engine` | [`stand-out-of-my-sun/diogenes-neural-search-engine-mcp`](https://github.com/stand-out-of-my-sun/diogenes-neural-search-engine-mcp) |
+| **9. Database Intelligence & Schema Guard (12 Tools)** | `https://diogenes-micro-gateway.corinth.workers.dev/mcp/database-intelligence` | [`stand-out-of-my-sun/diogenes-database-intelligence-mcp`](https://github.com/stand-out-of-my-sun/diogenes-database-intelligence-mcp) |
+| **10. Full Master Gateway (All 121 Services / 166 Total Capabilities)** | `https://diogenes-micro-gateway.corinth.workers.dev/mcp` | [`stand-out-of-my-sun/diogenes-micro-gateway`](https://github.com/stand-out-of-my-sun/diogenes-micro-gateway) |
 
 ---
 
