@@ -2,7 +2,7 @@
   {
     "name": "generate_gemini_completion",
     "title": "Account-Less Google Gemini 4 Argon & 3.1 Pro Universal Text Generator",
-    "description": "Generates text completions and structured reasoning across all 45 Google Gemini foundation models (Gemini 4 Argon, 3.1 Pro, 3.8 Flash) with zero Google account or API key required. Use when running single-turn reasoning, coding, or analytical prompts on a specific Gemini model; for delegating multi-step autonomous tasks that require remote tool execution, use execute_antigravity_agent instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'prompt' ('model' defaults to 'gemini-4-argon'), supports '?demo=true' or L402 (250 sats), and returns HTTP 400 if invalid.",
+    "description": "Generates text completions and structured reasoning across all 45 Google Gemini foundation models (Gemini 4 Argon, 3.1 Pro, 3.8 Flash) with zero Google account or API key required. Use when running single-turn reasoning, coding, or analytical prompts on a specific Gemini model; for delegating multi-step complex tasks that require remote tool execution, use execute_antigravity_agent instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'prompt' ('model' defaults to 'gemini-4-argon'), supports '?demo=true' or L402 (50 sats), and returns HTTP 400 if invalid.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -64,7 +64,7 @@
   {
     "name": "execute_antigravity_agent",
     "title": "Google Antigravity Multi-Step Autonomous Coding & Workflow Agent",
-    "description": "Dispatches a complex engineering or operational task to Google's Antigravity autonomous agent for multi-step planning, tool orchestration, and verified execution. Use when solving multi-stage software engineering or workflow tasks that require autonomous planning; for compiling exhaustive multi-source literature and market research dossiers, use conduct_deep_research_investigation instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'input' ('execution_mode' defaults to 'autonomous_verified'), supports '?demo=true' or L402 (500 sats), and returns HTTP 400 if invalid.",
+    "description": "Dispatches a complex engineering or operational task to Google's Antigravity autonomous agent for multi-step planning, tool orchestration, and verified execution. Use when solving multi-stage software engineering or workflow tasks that require autonomous planning; for compiling exhaustive multi-source literature and market research dossiers, use conduct_deep_research_investigation instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'input' ('execution_mode' defaults to 'autonomous_verified'), supports '?demo=true' or L402 (150 sats), and returns HTTP 400 if invalid.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -125,7 +125,7 @@
   {
     "name": "conduct_deep_research_investigation",
     "title": "Gemini Deep Research Pro Multi-Hop Investigative Analyst",
-    "description": "Runs an iterative, multi-hop investigative research session via Gemini Deep Research Pro, cross-examining primary sources to produce a cited technical report. Use when investigating complex scientific, architectural, or market questions requiring deep multi-hop synthesis; for running a fast single-turn Google Search grounded fact lookup, use search_gemini_grounded_web instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'input' ('depth_tier' defaults to 'quick_synthesis'), supports '?demo=true' or L402 (1000 sats), and returns HTTP 400 if invalid.",
+    "description": "Runs an iterative, multi-hop investigative research session via Gemini Deep Research Pro, cross-examining primary sources to produce a cited technical report. Use when investigating complex scientific, architectural, or market questions requiring deep multi-hop synthesis; for running a fast single-turn Google Search grounded fact lookup, use search_gemini_grounded_web instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'input' ('depth_tier' defaults to 'quick_synthesis'), supports '?demo=true' or L402 (300 sats), and returns HTTP 400 if invalid.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -186,7 +186,7 @@
   {
     "name": "operate_computer_use_agent",
     "title": "Gemini Computer Use GUI & Browser Action Planner",
-    "description": "Plans and executes OS-level desktop, browser DOM, and GUI coordinate actions (click, type, scroll, wait) using the Gemini Computer Use agent. Use when automating interactive web UIs or desktop workflows that lack a direct REST API; for running code-first API and terminal automation tasks, use execute_antigravity_agent instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'input' ('viewport_preset' defaults to 'desktop_1080p'), supports '?demo=true' or L402 (800 sats), and returns HTTP 400 if invalid.",
+    "description": "Plans and executes OS-level desktop, browser DOM, and GUI coordinate actions (click, type, scroll, wait) using the Gemini Computer Use agent. Use when automating interactive web UIs or desktop workflows that lack a direct REST API; for running code-first API and terminal automation tasks, use execute_antigravity_agent instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'input' ('viewport_preset' defaults to 'desktop_1080p'), supports '?demo=true' or L402 (200 sats), and returns HTTP 400 if invalid.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -247,7 +247,7 @@
   {
     "name": "search_gemini_grounded_web",
     "title": "Google Search Grounded Real-Time Fact & Citation Engine",
-    "description": "Answers factual queries with live Google Search grounding, returning verified up-to-date answers accompanied by source URLs and grounding metadata. Use when verifying live web facts, documentation updates, or current events in a single low-latency call; for querying geographic places, coordinates, directions, and local business data via Google Maps grounding, use search_gemini_grounded_maps instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'prompt' ('recency_bias' defaults to 'past_24h'), supports '?demo=true' or L402 (200 sats), and returns HTTP 400 if invalid.",
+    "description": "Answers factual queries with live Google Search grounding, returning verified up-to-date answers accompanied by source URLs and grounding metadata. Use when verifying live web facts, documentation updates, or current events in a single low-latency call; for querying geographic places, coordinates, directions, and local business data via Google Maps grounding, use search_gemini_grounded_maps instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'prompt' ('recency_bias' defaults to 'past_24h'), supports '?demo=true' or L402 (75 sats), and returns HTTP 400 if invalid.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -309,7 +309,7 @@
   {
     "name": "search_gemini_grounded_maps",
     "title": "Google Maps Grounded Geospatial & Place Intelligence Engine",
-    "description": "Executes geospatial and point-of-interest queries grounded in live Google Maps data, returning verified addresses, coordinates, operating hours, and spatial context. Use when resolving physical locations, venues, transit distances, or regional infrastructure data; for searching general web articles, documentation, and news, use search_gemini_grounded_web instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'prompt' ('distance_units' defaults to 'metric_km'), supports '?demo=true' or L402 (250 sats), and returns HTTP 400 if invalid.",
+    "description": "Executes geospatial and point-of-interest queries grounded in live Google Maps data, returning verified addresses, coordinates, operating hours, and spatial context. Use when resolving physical locations, venues, transit distances, or regional infrastructure data; for searching general web articles, documentation, and news, use search_gemini_grounded_web instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'prompt' ('distance_units' defaults to 'metric_km'), supports '?demo=true' or L402 (75 sats), and returns HTTP 400 if invalid.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -369,13 +369,17 @@
   {
     "name": "compile_mpp_research_dossier",
     "title": "Base MPP Session-Metered Multi-Source Research Dossier Compiler",
-    "description": "Compiles a structured JSON research dossier ('key_findings', 'synthesis_quality_score', 'sources_cited') settled via Base EVM Machine Payments Protocol (MPP). Use when generating a strict-JSON cited intelligence brief paid via Base USDC MPP session headers; for running long-form narrative research reports via L402 Lightning, use conduct_deep_research_investigation instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'research_topic' ('output_density' defaults to 'concise_5_points'), supports '?demo=true' or MPP (1000 sats), and returns HTTP 400 if invalid.",
+    "description": "Compiles a structured JSON research dossier ('key_findings', 'synthesis_quality_score', 'sources_cited') settled via Base EVM Machine Payments Protocol (MPP). Use when generating a strict-JSON cited intelligence brief paid via Base USDC MPP session headers; for running long-form narrative research reports via L402 Lightning, use conduct_deep_research_investigation instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'research_topic' ('output_density' defaults to 'concise_5_points'), supports '?demo=true' or MPP (300 sats), and returns HTTP 400 if invalid.",
     "inputSchema": {
       "type": "object",
       "properties": {
         "query": {
           "type": "string",
           "description": "Research topic or technical question to investigate and structure into JSON."
+        },
+        "research_topic": {
+          "type": "string",
+          "description": "Alias for query: research topic or technical question to investigate."
         },
         "output_density": {
           "type": "string",
@@ -388,7 +392,7 @@
         }
       },
       "required": [
-        "research_topic"
+        "query"
       ]
     },
     "outputSchema": {
@@ -413,7 +417,7 @@
         }
       },
       "required": [
-        "search_prompt",
+        "query",
         "key_findings",
         "synthesis_quality_score",
         "sources_cited"
@@ -430,7 +434,7 @@
   {
     "name": "generate_gemini_embeddings",
     "title": "Gemini Embedding 2 High-Dimensional (3,072-D) Vector Generator",
-    "description": "Generates normalized 3,072-dimensional or 768-dimensional semantic vector embeddings via Google Gemini Embedding 2 for RAG indexing and cosine-similarity search. Use when embedding text passages or queries via L402 Lightning with configurable Matryoshka dimensions; for running live Google Search grounded factual queries, use search_gemini_grounded_web instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'text' ('model' defaults to 'gemini-embedding-2'), supports '?demo=true' or L402 (50 sats), and returns HTTP 400 if invalid.",
+    "description": "Generates normalized 3,072-dimensional or 768-dimensional semantic vector embeddings via Google Gemini Embedding 2 for RAG indexing and cosine-similarity search. Use when embedding text passages or queries via L402 Lightning with configurable Matryoshka dimensions; for running live Google Search grounded factual queries, use search_gemini_grounded_web instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'text' ('model' defaults to 'gemini-embedding-2'), supports '?demo=true' or L402 (10 sats), and returns HTTP 400 if invalid.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -490,7 +494,7 @@
   {
     "name": "analyze_omni_multimodal_input",
     "title": "Gemini Omni Unified Text, Audio & Video Multimodal Analyzer",
-    "description": "Analyzes combined multimodal prompts spanning text, image descriptors, audio transcripts, and video temporal events using Gemini Omni Flash. Use when correlating information across multiple media modalities in a single reasoning pass; for running pure text-only reasoning or coding prompts, use generate_gemini_completion instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'input' ('modality_focus' defaults to 'cross_modal_synthesis'), supports '?demo=true' or L402 (300 sats), and returns HTTP 400 if invalid.",
+    "description": "Analyzes combined multimodal prompts spanning text, image descriptors, audio transcripts, and video temporal events using Gemini Omni Flash. Use when correlating information across multiple media modalities in a single reasoning pass; for running pure text-only reasoning or coding prompts, use generate_gemini_completion instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'input' ('modality_focus' defaults to 'cross_modal_synthesis'), supports '?demo=true' or L402 (100 sats), and returns HTTP 400 if invalid.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -551,7 +555,7 @@
   {
     "name": "plan_robotics_spatial_trajectory",
     "title": "Gemini Robotics ER 2 Embodied Spatial & Kinematics Trajectory Planner",
-    "description": "Computes 3D spatial affordances, obstacle-avoidance waypoints, and manipulator grasp sequences using Gemini Robotics ER 2 embodied reasoning. Use when planning physical robot arm kinematics, mobile navigation waypoints, or spatial scene task orders; for interacting with 2D desktop or browser GUI screens, use operate_computer_use_agent instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'prompt' ('coordinate_frame' defaults to 'cartesian_xyz_meters'), supports '?demo=true' or L402 (450 sats), and returns HTTP 400 if invalid.",
+    "description": "Computes 3D spatial affordances, obstacle-avoidance waypoints, and manipulator grasp sequences using Gemini Robotics ER 2 embodied reasoning. Use when planning physical robot arm kinematics, mobile navigation waypoints, or spatial scene task orders; for interacting with 2D desktop or browser GUI screens, use operate_computer_use_agent instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'prompt' ('coordinate_frame' defaults to 'cartesian_xyz_meters'), supports '?demo=true' or L402 (150 sats), and returns HTTP 400 if invalid.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -612,7 +616,7 @@
   {
     "name": "generate_nano_banana_image",
     "title": "Nano Banana Pro (Gemini Image) Visual Asset & Diagram Generator",
-    "description": "Generates photorealistic illustrations, UI mockups, and technical diagrams from text prompts using the Nano Banana Pro (Gemini 2.5 Flash Image) model family. Use when creating static visual assets, icons, or architecture diagrams from text descriptions; for synthesizing animated multi-second video clips with motion, use generate_veo_cinematic_video instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'prompt' ('aspect_ratio' defaults to '1:1'), supports '?demo=true' or L402 (350 sats), and returns HTTP 400 if invalid.",
+    "description": "Generates photorealistic illustrations, UI mockups, and technical diagrams from text prompts using the Nano Banana Pro (Gemini 2.5 Flash Image) model family. Use when creating static visual assets, icons, or architecture diagrams from text descriptions; for synthesizing animated multi-second video clips with motion, use generate_veo_cinematic_video instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'prompt' ('aspect_ratio' defaults to '1:1'), supports '?demo=true' or L402 (75 sats), and returns HTTP 400 if invalid.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -674,7 +678,7 @@
   {
     "name": "generate_veo_cinematic_video",
     "title": "Google Veo 3 High-Definition Cinematic Video Generator",
-    "description": "Synthesizes high-definition cinematic video sequences with temporally coherent camera motion and physics using Google Veo 3. Use when generating moving video clips, product B-roll, or animated scene renders from text prompts; for rendering static single-frame images or diagrams at lower cost, use generate_nano_banana_image instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'prompt' ('motion_style' defaults to 'static_tripod'), supports '?demo=true' or L402 (1500 sats), and returns HTTP 400 if invalid.",
+    "description": "Synthesizes high-definition cinematic video sequences with temporally coherent camera motion and physics using Google Veo 3. Use when generating moving video clips, product B-roll, or animated scene renders from text prompts; for rendering static single-frame images or diagrams at lower cost, use generate_nano_banana_image instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'prompt' ('motion_style' defaults to 'static_tripod'), supports '?demo=true' or L402 (650 sats), and returns HTTP 400 if invalid.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -736,7 +740,7 @@
   {
     "name": "compose_lyria_music_track",
     "title": "Google Lyria 3 Instrumental Music & Audio Stem Composer",
-    "description": "Composes studio-grade instrumental music tracks, ambient loops, and multi-instrument arrangements from genre, tempo, and mood prompts using Google Lyria 3. Use when generating musical scores, soundtrack stems, or rhythmic audio loops; for converting written text into spoken human voice narration (TTS), use synthesize_gemini_speech_audio instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'prompt' ('genre_preset' defaults to 'cinematic_synth'), supports '?demo=true' or L402 (500 sats), and returns HTTP 400 if invalid.",
+    "description": "Composes studio-grade instrumental music tracks, ambient loops, and multi-instrument arrangements from genre, tempo, and mood prompts using Google Lyria 3. Use when generating musical scores, soundtrack stems, or rhythmic audio loops; for converting written text into spoken human voice narration (TTS), use synthesize_gemini_speech_audio instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'prompt' ('genre_preset' defaults to 'cinematic_synth'), supports '?demo=true' or L402 (150 sats), and returns HTTP 400 if invalid.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -798,7 +802,7 @@
   {
     "name": "synthesize_gemini_speech_audio",
     "title": "Gemini Neural Text-to-Speech (TTS) Expressive Voice Synthesizer",
-    "description": "Converts written text into natural, prosody-controlled spoken voice audio using Gemini 3.8 Flash Neural Text-to-Speech. Use when rendering voiceover narration or spoken agent replies from a deterministic text script; for conducting bidirectional conversational audio dialog comprehension, use process_live_audio_dialogue instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'text' ('voice_persona' defaults to 'neutral_broadcast'), supports '?demo=true' or L402 (200 sats), and returns HTTP 400 if invalid.",
+    "description": "Converts written text into natural, prosody-controlled spoken voice audio using Gemini 3.8 Flash Neural Text-to-Speech. Use when rendering voiceover narration or spoken agent replies from a deterministic text script; for conducting bidirectional conversational audio dialog comprehension, use process_live_audio_dialogue instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'text' ('voice_persona' defaults to 'neutral_broadcast'), supports '?demo=true' or L402 (50 sats), and returns HTTP 400 if invalid.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -860,7 +864,7 @@
   {
     "name": "process_live_audio_dialogue",
     "title": "Gemini 3.8 Live Native Audio-to-Audio Conversational Processor",
-    "description": "Processes real-time conversational dialog turns with native acoustic emotion, interruption handling, and paralinguistic cue comprehension via Gemini 3.8 Live. Use when handling interactive voice-agent dialog turns that require tone and turn-taking awareness; for performing one-way text-to-speech readout of a static text string, use synthesize_gemini_speech_audio instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'input' ('response_tone' defaults to 'direct_peer'), supports '?demo=true' or L402 (300 sats), and returns HTTP 400 if invalid.",
+    "description": "Processes real-time conversational dialog turns with native acoustic emotion, interruption handling, and paralinguistic cue comprehension via Gemini 3.8 Live. Use when handling interactive voice-agent dialog turns that require tone and turn-taking awareness; for performing one-way text-to-speech readout of a static text string, use synthesize_gemini_speech_audio instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'input' ('response_tone' defaults to 'direct_peer'), supports '?demo=true' or L402 (75 sats), and returns HTTP 400 if invalid.",
     "inputSchema": {
       "type": "object",
       "properties": {
