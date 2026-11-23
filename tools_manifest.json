@@ -1,5 +1,13 @@
 [
   {
+    "name": "select_optimal_gemini_model",
+    "title": "Gemini 45-Model Selector & Multi-Rail Cost Estimator (Free)",
+    "description": "Zero-cost deterministic model router across all 45 Google Gemini models and AI agents with exact per-call pricing across all 6 crypto rails. 100% Free Tier hook.",
+    "endpoint": "/api/v1/ai/model-selector",
+    "free_tier": true,
+    "price_sats": 0
+  },
+  {
     "name": "generate_gemini_completion",
     "title": "Account-Less Google Gemini 4 Argon & 3.1 Pro Universal Text Generator",
     "description": "Generates text completions and structured reasoning across all 45 Google Gemini foundation models (Gemini 4 Argon, 3.1 Pro, 3.8 Flash) with zero Google account or API key required. Use when running single-turn reasoning, coding, or analytical prompts on a specific Gemini model; for delegating multi-step complex tasks that require remote tool execution, use execute_antigravity_agent instead. Stateless read-only edge call (max 32 KB, 60 RPM): accepts 'prompt' ('model' defaults to 'gemini-4-argon'), supports '?demo=true' or L402 (50 sats), and returns HTTP 400 if invalid.",
